@@ -8,12 +8,12 @@ This command resets the primary keys for a specific model in a selected app by d
 python manage.py reset_primary_keys
 ```
 
-## Reset Models
+## Delete Model Data
 
-This command resets the data for a specific model in a selected app.
+This command deletes the data for a specific model in a selected app.
 
 ```bash
-python manage.py reset_models
+python manage.py delete_model_data
 ```
 
 ## Reset Database

@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "django-db-utilities"
-version = "0.1.4"
+version = "0.1.5"
 description = "A utility library for Django to reset databases, models, and primary keys."
 authors = ["Roddy Brown <roddy@notroddy.io>"]
 license = "MIT"
