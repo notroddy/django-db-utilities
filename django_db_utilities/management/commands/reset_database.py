@@ -5,7 +5,8 @@ from django.db import connection
 class Command(BaseCommand):
     help = 'Resets the database by running migrations and clearing data'
 
-    def handle(self, *args, **kwargs):
+    def handle(self, *args, **kwargs) -> None:
+        """Main entry point for the command."""
         confirmation = questionary.select(
             "Are you sure you want to reset the database? This will remove all data.",
             choices=["Yes", "No"]
